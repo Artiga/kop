@@ -1,12 +1,11 @@
 {
-  "name": "flow",
+  "name": "kop",
   "version": "1.0.0",
   "description": "A TypeScript library to control async flows",
   "main": "index.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest",
-    "testWithCoverage": "jest --coverage",
+    "test": "jest --coverage",
     "eslint-report": "eslint -c .eslintrc.json -f html -o eslint-report.html index.ts lib/**"
   },
   "author": "Pedro Artiga",
