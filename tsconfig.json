@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "outDir": "./dist",
+        "allowJs": true,
+        "target": "es2018",
+        "moduleResolution": "node"
+    },
+    "include": [
+        "./lib/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "./test/**/*"
+    ]
+}

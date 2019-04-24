@@ -1,0 +1,13 @@
+{
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.tabSize": 4,
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		{ "language": "typescript", "autoFix": true }
+	]
+}
